@@ -7,9 +7,15 @@
     <title>WindDrum</title>
     <link rel="stylesheet" href="style.css">
     <script async defer src="script.js"></script>
+    <style>
+        .drumButton:active{background-color: brown;}
+        .active{background-color: brown;}
+        .logo{ height: 4rem; display: flex; justify-content: center;}
+        .drum-text{ text-align: Right; font-size: 2rem; font-weight: 1000; margin-right: 1rem;}
+    </style>
 </head>
-<body>
-    <audio id="bassdrum" src="media/BassDrum.mp3"></audio>
+<body style="background-color: crimson;">
+    <!-- <audio id="bassdrum" src="media/BassDrum.mp3"></audio>
     <audio id="floordrum" src="media/FloorDrum.mp3"></audio>
     <audio id="snaredrum" src="media/SnareDrum.mp3"></audio>
     <audio id="tomtom" src="media/TomTom.mp3"></audio>
@@ -17,34 +23,43 @@
     <audio id="crashcymbal" src="media/CrashCymbal.mp3"></audio>
     <audio id="ridecymbal" src="media/RideCymbal.mp3"></audio>
     <audio id="splashcymbal" src="media/SplashCymbal.mp3"></audio>
-    <audio id="chinacymbal" src="media/ChinaCymbal.mp3"></audio>
-    <div id="container">
+    <audio id="chinacymbal" src="media/ChinaCymbal.mp3"></audio> -->
+    <div id="container" style="height: 100vh; display: flex; align-items: center;  justify-content: center; flex-wrap: wrap;">
         <div class="drumButton" id="BassDrum">
             <img src="media/BassDrum.png" alt="BassDrum" class="logo">
+            <div class="drum-text">w</div>
         </div>
         <div class="drumButton" id="FloorDrum">
             <img src="media/FloorDrum.png" alt="FloorDrum" class="logo">
+            <div class="drum-text">s</div>
         </div>
         <div class="drumButton" id="SnareDrum">
             <img src="media/SnareDrum.png" alt="SnareDrum" class="logo">
+            <div class="drum-text">a</div>
         </div>
         <div class="drumButton" id="TomTom">
-            <img src="media/TomTom.jpg" alt="TomTom" class="logo">
+            <img src="media/TomTom.png" alt="TomTom" class="logo">
+            <div class="drum-text">d</div>
         </div>
         <div class="drumButton" id="HiHat">
             <img src="media/HiHat.png" alt="HiHat" class="logo">
+            <div class="drum-text">e</div>
         </div>
         <div class="drumButton" id="CrashCymbal">
             <img src="media/CrashCymbal.png" alt="CrashCymbal" class="logo">
+            <div class="drum-text">j</div>
         </div>
         <div class="drumButton" id="RideCymbal">
             <img src="media/RideCymbal.png" alt="RideCymbal" class="logo">
+            <div class="drum-text">k</div>
         </div>
         <div class="drumButton" id="SplashCymbal">
             <img src="media/SplashCymbal.png" alt="SplashCymbal" class="logo">
+            <div class="drum-text">i</div>
         </div>
         <div class="drumButton" id="ChinaCymbal">
             <img src="media/ChinaCymbal.png" alt="ChinaCymbal" class="logo">
+            <div class="drum-text">l</div>
         </div>
     </div>
     
