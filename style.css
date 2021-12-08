@@ -26,9 +26,6 @@ body{
     margin-top: 40px; */
     width: 50px;
     /* object-fit: contain; */
-    /* display: flex;
-    justify-content: center; */
-    
 }
 
 .drumButton:active{background-color: brown;}
